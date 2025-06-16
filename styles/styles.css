@@ -1,0 +1,2020 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header{
+    background-color: #1E172F;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 200px 0px 200px;
+    justify-items: center;
+    align-items: center;
+    
+}
+
+nav{
+    display: flex;
+    gap:30px;
+    text-decoration: none;
+    font-size: 20px;
+    align-items: center;
+    
+}
+
+nav a {
+  text-decoration-line: none;
+  color: gray;
+}
+
+.buttonh{
+      padding: 15px 30px;
+      font-size: 16px;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      background: linear-gradient(45deg,  violet, blue, indigo);
+      
+    }
+
+a:hover{  
+        color: aliceblue;
+    }
+
+               
+     
+                                     /*SECTION 2*/
+
+.section2{
+    display:flex;
+    justify-content: space-between;
+}
+.contenDers2{
+    background-image: url(/assets/hojasFondo.jpg);
+    width: 50vw;   
+    background-position: right center; 
+    background-repeat: no-repeat;
+    overflow: hidden;
+    opacity: 0.9;
+    padding: 0px ;  
+    height: 75vh;
+    background-size:80vw;
+    background-position-x: -205px;
+
+    
+}
+
+.imgs2{
+    width: 220px;
+    margin: 130px;
+
+}
+
+.contenIzs2{
+    width: 50%;
+    background-color: #2E2550;
+    padding: 200px 0px 0px 265px;
+
+}
+h1{
+    font-size: 80px;
+    width: 50%;
+    line-height: 0.9;
+    color: white;
+    margin-bottom: 35px;
+}
+
+.texts2{
+    font-size: 22px;
+    color:aliceblue;
+    width:90%;
+}
+
+.contens2Bu{
+    border:solid 2px;
+    border-color:#f5f2fb;
+    padding: 5px 5px 5px 5px;
+    width: 61%;
+    border-radius: 5px;
+    margin-top: 35px;
+}
+
+.button1s2{
+    background-color: white;
+    border: none;
+    padding: 10px 20px;
+    color: #F41486;
+    font-size: 15px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.button2s2{
+    color:white;
+    background-color: #2E2550;
+    border-color:white;
+    padding: 10px 35px;
+    border-radius: 4px;
+    font-weight: bold;
+    
+}
+
+                
+                                  /*section 3*/
+
+.section3{
+   margin: 40px
+
+}
+
+.titulo3{
+    font-size: 45px;
+    text-align: center;
+    color: #F41486;
+
+}
+.contens3{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0px 0px 250px;
+
+}
+
+.imgs3{
+     height: 300px;
+}
+
+.contesderes3{
+    margin-left: 95px;
+}
+.titulots3{
+    color: #ef3b98;
+    font-size: 45px;
+    margin-bottom: 30px;
+}
+
+.texts3{
+    font-size: 18px;
+    width: 60%;
+}
+
+.seguntitus3{
+    color: #F41486;
+    font-size: 18px;
+    margin-top: 20px;;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.lists3{
+    font-size: 18px;
+    list-style: none;
+}
+
+.colorchulo{
+    color: #F41486;    
+}
+
+
+
+                        /*section4*/
+
+.section4{
+    background-color: #1E172F;
+    text-align: center;
+    padding: 40px 380px 40px 380px;
+
+}
+
+.titulos4{
+    color: white;
+    font-size: 65px;
+
+}
+
+.texts4{
+    margin-top: 40px;
+    color: white;
+}
+
+
+                          
+                        /*sectino5*/
+
+.section5 {
+    background-color: #1E172F;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 300px 50px 300px;
+    gap: 30px;
+
+}
+
+                         /* informacion de la primera tarjeta de la section5*/
+
+.part1s5 {
+    background-color: #FFFFFF;
+    width: 40%;
+    border-radius: 4px;
+
+}
+.logop1s5{
+    text-align: center;
+    padding: 10px 35px 0px 30px;
+}
+
+.titulop1s5{
+    text-align: center;
+    padding: 0px 35px 15px 30px;
+    color:#F41486;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.primersectionp1s5{
+    background-color: #F5F5F5;
+    padding: 14px 0px 14px 0px;
+    display: flex;
+    justify-content: center
+}
+.signopeso{
+    font-size: 40px;
+}
+.preciop1s5{
+    font-size: 40px;
+}
+
+.list1s5{
+    list-style-type: none;
+    font-size: 18px;
+    padding: 20px 35px 0px 30px;
+}
+
+
+
+.iconop1s5{
+    color:#F41486;
+    font-weight: bold;
+}
+
+.iconop1s5x{
+    color: black;
+    font-weight: bold;
+}
+
+.text1s5{
+    text-align: center;
+    padding-left: 40px;
+}
+
+.texlist1{
+    text-align: center;
+    font-size: 18px;
+    padding: 40px 35px 40px 30px;
+}
+
+.buttonp1s5{
+    text-align:center;
+    background-color: #F5F5F5;
+    padding: 10px 0px 10px 0px;
+
+}
+
+.buttonp1s5e{
+  background: linear-gradient(to right, #f577bc, #e22d78); /* rosa claro a rosa oscuro */
+  color: white; /* color del texto */
+  padding: 15px 30px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+
+
+
+                         /* informacion segunda tarjeta */
+
+.part2s5 {
+    background-color: #FFFFFF;
+    width: 40%;
+    border-radius: 4px;
+
+}
+.logop2s5{
+    text-align: center;
+    padding: 10px 35px 0px 30px;
+}
+
+.titulop2s5{
+    text-align: center;
+    padding: 0px 35px 15px 30px;
+    color:#263247;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.primersectionp2s5{
+    background-color: #F5F5F5;
+    padding: 14px 0px 14px 0px;
+    display: flex;
+    justify-content: center
+
+}
+.signopeso{
+    font-size: 40px;
+}
+.preciop2s5{
+    font-size: 40px;
+}
+
+.list2s5{
+    list-style-type: none;
+    font-size: 18px;
+    padding: 20px 35px 0px 30px;
+}
+
+
+
+.iconop2s5{
+    color:#263247;
+    font-weight: bold;
+}
+
+.iconop2s5x{
+    color: black;
+    font-weight: bold;
+}
+
+.text2s5{
+    text-align: center;
+    padding-left: 40px;
+}
+
+.texlist2{
+    text-align: center;
+    font-size: 18px;
+    padding: 40px 35px 40px 30px;
+}
+
+.buttonp2s5{
+    text-align:center;
+    background-color: #F5F5F5;
+    padding: 10px 0px 10px 0px;
+
+}
+
+.buttonp2s5e{
+  background-color: #2E2550;
+  color: white; 
+  padding: 15px 30px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+                    /* informacion tajeta numero 3*/
+
+.part3s5 {
+    background-color: #FFFFFF;
+    width: 40%;
+    border-radius: 4px;
+
+}
+.logop3s5{
+    text-align: center;
+    padding: 10px 35px 0px 30px;
+}
+
+.titulop3s5{
+    text-align: center;
+    padding: 0px 35px 15px 30px;
+    color:#263247;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.primersectionp3s5{
+    background-color: #F5F5F5;
+    padding: 14px 0px 14px 0px;
+    display: flex;
+    justify-content: center
+}
+.textArriba{
+    width: 30%;
+    margin-left: 3px;
+}
+
+
+.signopeso{
+    font-size: 40px;
+}
+.preciop3s5{
+    font-size: 40px;
+}
+
+.list3s5{
+    list-style-type: none;
+    font-size: 18px;
+    padding: 20px 35px 0px 30px;
+}
+
+
+
+
+.iconop3s5{
+    color:#263247;
+    font-weight: bold;
+}
+
+.iconop3s5x{
+    color: black;
+    font-weight: bold;
+}
+
+.text3s5{
+    text-align: center;
+    padding-left: 40px;
+}
+
+.texlist3{
+    text-align: center;
+    font-size: 18px;
+    padding: 40px 35px 40px 30px;
+}
+
+.buttonp3s5{
+    text-align:center;
+    background-color: #F5F5F5;
+    padding: 10px 0px 10px 0px;
+
+}
+
+.buttonp3s5e{
+  background-color: #2E2550;
+  color: white; 
+  padding: 15px 30px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+                                  /*footer*/
+
+
+footer{
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+        justify-items: center;
+    align-items: center;
+    height: 100px;
+    padding: 0px 200px;
+    color: rgb(99, 97, 97);
+    font-size: 18px;
+}
+
+.logof{
+    width: 20px;
+     filter: brightness(0) saturate(0%) opacity(0.);
+}
+
+.logot{
+    width: 30px;
+    filter: grayscale(100%) brightness(50%);
+}
+
+.linkedin{
+    width: 30px;
+    filter: grayscale(100%) brightness(50%);
+}
+
+.ligoins{
+    width: 30px;
+    filter: grayscale(100%) brightness(70%);
+}
+
+.fotters{
+    color: #F41486;
+}
+
+
+
+                      /*responsing*/ 
+
+@media (max-width:1279px){
+
+                                  /*header*/
+
+header{
+    padding: 0px 70px 0px 70px;
+}
+nav{
+    font-size: 15px;
+}
+
+.buttonh{
+      padding: 13px 25px;
+      font-size: 13px;
+    }
+
+
+                    /*section 2 */
+
+.contenDers2{
+    background-image: url(/assets/hojasFondo.jpg);
+    width: 50vw;   
+    background-position: right center; 
+    background-repeat: no-repeat;
+    overflow: hidden;
+    opacity: 0.9;
+    padding: 0px ;  
+    height: 100vh;
+    background-size:80vw;
+    background-position-x: -205px;
+}
+
+                     /*izquerda*/
+
+.contenIzs2{
+    padding: 100px 0px 0px 125px;
+
+}
+
+
+h1{
+    font-size: 50px;
+}
+
+.texts2{
+    font-size: 15px;
+}
+
+
+.contens2Bu{
+    width: 70%;
+
+ 
+}
+
+.button1s2{
+    padding: 10px 17px;
+    font-size: 13px;
+}
+
+.button2s2{
+  padding: 10px 15px;
+  font-size: 13px;
+}
+
+.imgs2{
+    width: 170px;
+    margin: 90px;
+}
+
+
+                     /*section 3*/
+                    
+.titulo3{
+    font-size: 35px;
+}
+
+.section3{
+    padding: 0px;
+}
+
+.imgs3{
+    margin-top: 50px;
+    width: 350px;
+    height: 200px;
+}
+
+.contens3{
+    padding: 40px 0px 0px 90px;
+}
+
+
+.contesderes3{
+    margin-left: 70px;
+}
+.titulots3{
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+.texts3{
+    font-size: 15px;
+    width: 90%;
+}
+
+.seguntitus3{
+    font-size: 17px;
+    margin-top: 20px;
+}
+
+.lists3{
+    font-size: 15px;
+
+}
+
+                            /*section 4*/
+
+.section4{
+    padding: 40px 160px 40px 160px;
+
+}
+
+.titulos4{
+    font-size: 50px;
+
+}
+
+.texts4{
+    font-size: 15px;
+    margin-top: 30px;
+}
+
+
+                         /*section 5*/
+
+
+.section5 {
+    padding: 20px 35px 50px 35px;
+    gap: 30px;
+
+}
+
+
+                         /* primera tarjeta */
+
+.part1s5 {
+    padding-bottom: 0px ;
+    width: 35%;
+    border-radius: 4px;
+
+}
+.logop1s5{
+    text-align: center;
+    padding: 15px 30px 0px 25px;
+}
+
+.titulop1s5{
+    text-align: center;
+    font-size: 21px;
+}
+
+.primersectionp1s5{
+    padding: 11px 0px 11px 0px;
+}
+.signopeso{
+    font-size: 35px;
+}
+.preciop1s5{
+    font-size: 35px;
+}
+
+.list1s5{
+    font-size: 16px;
+    padding: 20px 35px 0px 30px;
+}
+
+.iconop1s5{
+    color:#F41486;
+    font-weight: bold;
+}
+
+.iconop1s5x{
+    color: black;
+    font-weight: bold;
+}
+
+.text1s5{
+    text-align: center;
+
+}
+
+.texlist1{
+    text-align: center;
+    font-size: 16px;
+    padding: 40px 35px 40px 35px;
+}
+
+.buttonp1s5{
+    padding: 8px 0px 8px 0px;
+
+}
+
+.buttonp1s5e{
+  padding: 15px 30px;
+  font-size: 16px;
+}
+
+
+                                                     /* segunda tarjeta */
+
+.part2s5 {
+    padding-bottom: 0px ;
+    width: 35%;
+    border-radius: 4px;
+
+}
+.logop2s5{
+    text-align: center;
+    padding: 15px 30px 0px 25px;
+}
+
+.titulop2s5{
+    text-align: center;
+    font-size: 21px;
+}
+
+.primersectionp2s5{
+    padding: 11px 0px 11px 0px;
+}
+.signopeso{
+    font-size: 35px;
+}
+.preciop2s5{
+    font-size: 35px;
+}
+
+.list2s5{
+    font-size: 16px;
+    padding: 20px 35px 0px 30px;
+}
+
+.iconop2s5{
+    color:#F41486;
+    font-weight: bold;
+}
+
+.iconop2s5x{
+    color: black;
+    font-weight: bold;
+}
+
+.text2s5{
+    text-align: center;
+
+}
+
+.texlist2{
+    text-align: center;
+    font-size: 16px;
+    padding: 40px 35px 40px 35px;
+}
+
+.buttonp2s5{
+    padding: 8px 0px 8px 0px;
+
+}
+
+.buttonps5e{
+  padding: 15px 30px;
+  font-size: 16px;
+}
+
+
+                                         /* Tercera tarjeta */
+
+.part3s5 {
+    padding-bottom: 0px ;
+    width: 35%;
+    border-radius: 4px;
+
+}
+.logop3s5{
+    text-align: center;
+    padding: 15px 30px 0px 25px;
+}
+
+.titulop3s5{
+    text-align: center;
+    font-size: 21px;
+}
+
+.primersectionp3s5{
+    padding: 11px 0px 11px 0px;
+}
+.signopeso{
+    font-size: 35px;
+}
+.preciop3s5{
+    font-size: 35px;
+}
+
+.list3s5{
+    font-size: 16px;
+    padding: 20px 35px 0px 30px;
+}
+
+.iconop3s5{
+    color:#F41486;
+    font-weight: bold;
+}
+
+.iconop3s5x{
+    color: black;
+    font-weight: bold;
+}
+
+.text3s5{
+    text-align: center;
+
+}
+
+.texlist3{
+    text-align: center;
+    font-size: 16px;
+    padding: 40px 35px 40px 35px;
+}
+
+.buttonp3s5{
+    padding: 8px 0px 8px 0px;
+
+}
+
+.buttonps5e{
+  padding: 15px 30px;
+  font-size: 16px;
+}
+
+                           /*footer*/
+
+
+footer{
+    height: 80px;
+    padding: 0px 100px;
+    color: rgb(99, 97, 97);
+    font-size: 18px;
+}
+
+.logof{
+    width: 20px;
+     filter: brightness(0) saturate(0%) opacity(0.);
+}
+
+.logot{
+    width: 30px;
+    filter: grayscale(100%) brightness(50%);
+}
+
+.linkedin{
+    width: 30px;
+    filter: grayscale(100%) brightness(50%);
+}
+
+.ligoins{
+    width: 30px;
+    filter: grayscale(100%) brightness(70%);
+}
+
+
+}
+
+
+
+@media (max-width:920px){
+
+
+    .contenDers2{
+    background-image: url(/assets/hojasFondo.jpg);
+    width: 50vw;   
+    opacity: 0.9;
+    padding: 0px ;  
+    height: 88vh;
+    background-size:80vw;
+    background-position-x: -205px;
+
+    
+}
+
+                             /*section Izquierda*/
+
+  /*izquerda*/
+
+.contenIzs2{
+    padding: 80px 0px 0px 90px;
+
+}
+
+
+h1{
+    font-size: 40px;
+}
+
+.texts2{
+    font-size: 13px;
+}
+
+
+.contens2Bu{
+    width: 79%;
+
+ 
+}
+
+.button1s2{
+    padding: 8px 15px;
+    font-size: 13px;
+}
+
+.button2s2{
+  padding: 8px 15px;
+  font-size: 13px;
+}
+
+.imgs2{
+    width: 140px;
+    margin: 90px;
+}
+
+                          /*section 3*/
+
+.titulo3{
+    font-size: 30px;
+}
+
+.section3{
+    padding: 0px;
+}
+
+.imgs3{
+    margin-top: 50px;
+    width: 300px;
+    height: 200px;
+}
+
+.contens3{
+    padding: 40px 0px 0px 0px;
+}
+
+
+.contesderes3{
+    margin-left: 70px;
+}
+.titulots3{
+    font-size: 27px;
+    margin-bottom: 30px;
+}
+
+.texts3{
+    font-size: 15px;
+    width: 90%;
+}
+
+.seguntitus3{
+    font-size: 17px;
+    margin-top: 20px;
+}
+
+.lists3{
+    font-size: 15px;
+
+}
+
+                               /*section 4*/
+
+.section4{
+    padding: 40px 100px 40px 100px;
+
+}
+
+.titulos4{
+    font-size: 50px;
+
+}
+
+.texts4{
+    font-size: 15px;
+    margin-top: 30px;
+}
+
+
+                         /*section 5*/
+
+
+.section5 {
+    padding: 20px 35px 50px 35px;
+    gap: 30px;
+
+}
+
+                        /* primera tarjeta */
+
+.part1s5 {
+    background-color: #FFFFFF;
+    width: 40%;
+    height: 10%;
+    border-radius: 4px;
+}
+
+.part1s5 {
+    padding-bottom: 0px ;
+    width: 35%;
+    border-radius: 4px;
+
+}
+.logop1s5{
+    text-align: center;
+    padding: 15px 30px 0px 25px;
+}
+
+.titulop1s5{
+    text-align: center;
+    font-size: 21px;
+}
+
+.primersectionp1s5{
+    padding: 11px 0px 11px 0px;
+}
+.signopeso{
+    font-size: 35px;
+}
+.preciop1s5{
+    font-size: 35px;
+}
+
+.list1s5{
+    font-size: 16px;
+    padding: 20px 8px 0px 20px;
+}
+
+.iconop1s5{
+    color:#F41486;
+    font-weight: bold;
+}
+
+.iconop1s5x{
+    color: black;
+    font-weight: bold;
+}
+
+.text1s5{
+    text-align: center;
+
+}
+
+.texlist1{
+    text-align: center;
+    font-size: 16px;
+    padding: 20px 15px 20px 15px;
+}
+
+.buttonp1s5{
+    padding: 8px 0px 8px 0px;
+
+}
+
+.buttonp1s5e{
+  padding: 15px 30px;
+  font-size: 16px;
+}
+
+ 
+                                       /*segunda tarjeta*/
+
+.part2s5 {
+    background-color: #FFFFFF;
+    width: 40%;
+    height: 10%;
+    border-radius: 4px;
+}
+
+.part2s5 {
+    padding-bottom: 0px ;
+    width: 35%;
+    border-radius: 4px;
+
+}
+.logop2s5{
+    text-align: center;
+    padding: 15px 30px 0px 25px;
+}
+
+.titulop2s5{
+    text-align: center;
+    font-size: 21px;
+}
+
+.primersectionp2s5{
+    padding: 11px 0px 11px 0px;
+}
+.signopeso{
+    font-size: 35px;
+}
+.preciop2s5{
+    font-size: 35px;
+}
+
+.list2s5{
+    font-size: 16px;
+    padding: 20px 8px 0px 20px;
+}
+
+.iconop2s5{
+    color:#F41486;
+    font-weight: bold;
+}
+
+.iconop2s5x{
+    color: black;
+    font-weight: bold;
+}
+
+.text2s5{
+    text-align: center;
+
+}
+
+.texlist2{
+    text-align: center;
+    font-size: 16px;
+    padding: 20px 15px 20px 15px;
+}
+
+.buttonp2s5{
+    padding: 8px 0px 8px 0px;
+
+}
+
+.buttonp2s5e{
+  padding: 15px 30px;
+  font-size: 16px;
+}
+
+
+
+                                /*tercera tejrta*/
+
+  /*segunda tarjeta*/
+
+.part3s5 {
+    background-color: #FFFFFF;
+    width: 40%;
+    height: 10%;
+    border-radius: 4px;
+}
+
+.part3s5 {
+    padding-bottom: 0px ;
+    width: 35%;
+    border-radius: 4px;
+
+}
+.logop3s5{
+    text-align: center;
+    padding: 15px 30px 0px 25px;
+}
+
+.titulop3s5{
+    text-align: center;
+    font-size: 21px;
+}
+
+.primersectionp3s5{
+    padding: 11px 0px 11px 0px;
+}
+.signopeso{
+    font-size: 35px;
+}
+.preciop3s5{
+    font-size: 35px;
+}
+
+.list3s5{
+    font-size: 16px;
+    padding: 20px 8px 0px 20px;
+}
+
+.iconop3s5{
+    color:#F41486;
+    font-weight: bold;
+}
+
+.iconop3s5x{
+    color: black;
+    font-weight: bold;
+}
+
+.text3s5{
+    text-align: center;
+
+}
+
+.texlist3{
+    text-align: center;
+    font-size: 16px;
+    padding: 20px 15px 20px 15px;
+}
+
+.buttonp3s5{
+    padding: 8px 0px 8px 0px;
+
+}
+
+.buttonp3s5e{
+  padding: 15px 30px;
+  font-size: 16px;
+}
+
+}
+
+
+@media (max-width:768px){
+
+     /*header*/
+
+header{
+    padding: 0px 20px 0px 20px;
+}
+nav{
+    gap:20px;
+    font-size: 12px;
+}
+
+.buttonh{
+      padding: 10px 15px;
+      font-size: 10px;
+    }
+
+}
+
+                    /*section 2 */
+
+.contenDers2{
+    background-image: url(/assets/hojasFondo.jpg);
+    width: 50vw;   
+    background-position: right center; 
+    background-repeat: no-repeat;
+    overflow: hidden;
+    opacity: 0.9;
+    padding: 0px ;  
+    height: 75vh;
+    background-size:120vw;
+    background-position-x: -205px;
+}
+
+  /*izquerda*/
+
+.contenIzs2{
+    padding: 20px 0px 0px 30px;
+
+}
+
+
+h1{
+    font-size: 40px;
+}
+
+.texts2{
+    font-size: 13px;
+}
+
+
+.contens2Bu{
+    width: 88%;
+
+ 
+}
+
+.button1s2{
+    padding: 10px 14px;
+    font-size: 10px;
+}
+
+.button2s2{
+  padding: 8px 10px;
+  font-size: 10px;
+}
+
+.imgs2{
+    width: 120px;
+    margin: 30px;
+}
+
+   
+                        /* section 3*/
+
+
+.imgs3{
+    margin-top: 50px;
+    width: 150px;
+    height: 150px;
+}
+
+
+                           /*section 4*/
+
+.section4{
+    padding: 40px 50px 40px 50px;
+
+}
+
+.titulos4{
+    font-size: 50px;
+
+}
+
+.texts4{
+    font-size: 15px;
+    margin-top: 30px;
+}
+
+
+
+                                    /*section 5*/
+
+
+.section5 {
+    padding: 20px 10px 50px 10px;
+    gap: 10px;
+
+}
+
+                                  /* primera tarjeta */
+
+.part1s5 {
+    background-color: #FFFFFF;
+    width: 40%;
+    height: 10%;
+    border-radius: 4px;
+}
+
+.part1s5 {
+    padding-bottom: 0px ;
+    width: 35%;
+    border-radius: 4px;
+
+}
+.logop1s5{
+    text-align: center;
+    padding: 15px 30px 0px 25px;
+}
+
+.titulop1s5{
+    text-align: center;
+    font-size: 21px;
+}
+
+.primersectionp1s5{
+    padding: 11px 0px 11px 0px;
+}
+.signopeso{
+    font-size: 35px;
+}
+.preciop1s5{
+    font-size: 35px;
+}
+
+.list1s5{
+    font-size: 13px;
+    padding: 20px 2px 0px 10px;
+}
+
+.iconop1s5{
+    color:#F41486;
+    font-weight: bold;
+}
+
+.iconop1s5x{
+    color: black;
+    font-weight: bold;
+}
+
+.text1s5{
+    text-align: center;
+    padding: 0px;
+
+}
+
+.texlist1{
+    text-align: center;
+    font-size: 16px;
+    padding: 20px 15px 20px 5px;
+}
+
+.buttonp1s5{
+    padding: 8px 0px 8px 0px;
+
+}
+
+.buttonp1s5e{
+  padding: 15px 20px;
+  font-size: 13px;
+}
+
+
+                                           /* segunda tarjeta */
+
+.part2s5 {
+    background-color: #FFFFFF;
+    width: 40%;
+    height: 10%;
+    border-radius: 4px;
+}
+
+.part2s5 {
+    padding-bottom: 0px ;
+    width: 35%;
+    border-radius: 4px;
+
+}
+.logop2s5{
+    text-align: center;
+    padding: 15px 30px 0px 25px;
+}
+
+.titulop2s5{
+    text-align: center;
+    font-size: 21px;
+}
+
+.primersectionp2s5{
+    padding: 11px 0px 11px 0px;
+}
+.signopeso{
+    font-size: 35px;
+}
+.preciop2s5{
+    font-size: 35px;
+}
+
+.list2s5{
+    font-size: 13px;
+    padding: 20px 2px 0px 10px;
+}
+
+.iconop2s5{
+    color:#F41486;
+    font-weight: bold;
+}
+
+.iconop2s5x{
+    color: black;
+    font-weight: bold;
+}
+
+.text2s5{
+    text-align: center;
+    padding: 0px;
+
+}
+
+.texlist2{
+    text-align: center;
+    font-size: 16px;
+    padding: 20px 15px 20px 5px;
+}
+
+.buttonp2s5{
+    padding: 8px 0px 8px 0px;
+
+}
+
+.buttonp2s5e{
+  padding: 15px 20px;
+  font-size: 13px;
+}
+
+
+
+                        /* tercera tarjeta */
+
+.part3s5 {
+    background-color: #FFFFFF;
+    width: 40%;
+    height: 10%;
+    border-radius: 4px;
+}
+
+.part3s5 {
+    padding-bottom: 0px ;
+    width: 35%;
+    border-radius: 4px;
+
+}
+.logop3s5{
+    text-align: center;
+    padding: 15px 30px 0px 25px;
+}
+
+.titulop3s5{
+    text-align: center;
+    font-size: 21px;
+}
+
+.primersectionp3s5{
+    padding: 11px 0px 0px 0px;
+}
+.signopeso{
+    font-size: 35px;
+}
+.preciop3s5{
+    font-size: 35px;
+}
+
+.list3s5{
+    font-size: 13px;
+    padding: 20px 2px 0px 10px;
+}
+
+.iconop3s5{
+    color:#F41486;
+    font-weight: bold;
+}
+
+.iconop3s5x{
+    color: black;
+    font-weight: bold;
+}
+
+.text3s5{
+    text-align: center;
+    padding: 0px;
+
+}
+
+.texlist3{
+    text-align: center;
+    font-size: 16px;
+    padding: 20px 15px 20px 5px;
+}
+
+.buttonp3s5{
+    padding: 8px 0px 8px 0px;
+
+}
+
+.buttonp3s5e{
+  padding: 15px 20px;
+  font-size: 13px;
+}
+                       
+  
+                                /*footer*/
+
+footer{
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+        justify-items: center;
+    align-items: center;
+    height: 100px;
+    padding: 0px 20px;
+    color: rgb(99, 97, 97);
+    font-size: 15px;
+}
+
+.logof{
+    width: 13px;
+     filter: brightness(0) saturate(0%) opacity(0.);
+}
+
+.logot{
+    width: 20px;
+    filter: grayscale(100%) brightness(50%);
+}
+
+.linkedin{
+    width: 20px;
+    filter: grayscale(100%) brightness(50%);
+}
+
+.ligoins{
+    width: 20px;
+    filter: grayscale(100%) brightness(70%);
+}
+
+.fotters{
+    color: #F41486;
+}
+
+
+
+
+@media (max-width:480px){
+
+                                            /*header*/
+.logo{
+    width: 80px;
+}
+
+header{
+    height: 80px;
+    padding: 0px 5px 0px 5px;
+}
+
+nav{
+
+    gap:7px;
+    font-size: 12px;
+}
+
+
+.buttonh{
+    padding: 10px 12px;
+    font-size: 10px;
+    border-radius: 8px;
+}
+
+
+                                    /*section 2*/
+
+
+
+.contenDers2{
+    background-image: url(/assets/hojasFondo.jpg);
+    width: 50vw;   
+    background-position: right center; 
+    background-repeat: no-repeat;
+    overflow: hidden;
+    opacity: 0.9;
+    padding: 0px ;  
+    height: 75vh;
+    background-size:150vw;
+    background-position-x: -205px;
+}
+
+/*izquerda*/
+
+.contenIzs2{
+    padding: 30px 0px 0px 5px;
+
+}
+
+
+h1{
+    font-size: 30px;
+}
+
+.texts2{
+    font-size: 10px;
+}
+
+
+.contens2Bu{
+    width: 94%;
+
+ 
+}
+
+.button1s2{
+    padding: 5px 7px;
+    font-size: 10px;
+}
+
+.button2s2{
+  padding: 5px 5px;
+  font-size: 10px;
+}
+
+.imgs2{
+    width: 120px;
+    margin: 30px;
+}
+
+
+                           /*section 3*/
+
+.contens3{
+display:flex;
+flex-direction: column;
+
+
+padding: 0px;
+
+}
+.section3{
+   margin: 0px
+
+}
+
+.titulo3{
+    margin-top: 30px;
+    font-size: 25px;
+    text-align: center;
+    color: #F41486;
+
+}
+
+.computter{
+    text-align: center;
+}
+
+.imgs3{
+     width: 300px;
+     height: 250px;
+     text-align: center;
+}
+
+.contesderes3{
+    margin-left: 70px;
+    margin-bottom: 30px;
+}
+
+.titulots3{
+    color: #ef3b98;
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+.texts3{
+    font-size: 18px;
+    width: 90%;
+}
+
+.seguntitus3{
+    color: #F41486;
+    font-size: 18px;
+    margin-top: 20px;;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.lists3{
+    font-size: 18px;
+    list-style: none;
+}
+
+.colorchulo{
+    color: #F41486;    
+}
+
+
+                             /*section5*/
+
+.section5 {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 30px 0px 30px;
+}
+
+
+
+                             /*primera tarjeta*/
+
+.part1s5 {
+    background-color: #FFFFFF;
+    width: 100%;
+    border-radius: 4px;
+
+}
+.logop1s5{
+    text-align: center;
+    padding: 10px 35px 0px 30px;
+}
+
+.titulop1s5{
+    text-align: center;
+    padding: 0px 35px 15px 30px;
+    color:#F41486;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.primersectionp1s5{
+    background-color: #F5F5F5;
+    padding: 14px 0px 14px 0px;
+    display: flex;
+    justify-content: center
+}
+.signopeso{
+    font-size: 40px;
+}
+.preciop1s5{
+    font-size: 40px;
+}
+
+.list1s5{
+    list-style-type: none;
+    font-size: 18px;
+    padding: 20px 35px 0px 30px;
+}
+
+
+
+.iconop1s5{
+    color:#F41486;
+    font-weight: bold;
+}
+
+.iconop1s5x{
+    color: black;
+    font-weight: bold;
+}
+
+.text1s5{
+    text-align: center;
+    padding-left: 40px;
+}
+
+.texlist1{
+    text-align: center;
+    font-size: 18px;
+    padding: 40px 35px 40px 30px;
+}
+
+.buttonp1s5{
+    text-align:center;
+    background-color: #F5F5F5;
+    padding: 10px 0px 10px 0px;
+
+}
+
+.buttonp1s5e{
+  background: linear-gradient(to right, #f577bc, #e22d78); /* rosa claro a rosa oscuro */
+  color: white; /* color del texto */
+  padding: 15px 30px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+
+                                  /*segunda tarjeta*/
+
+.part2s5 {
+    margin-top: 40px;
+    background-color: #FFFFFF;
+    width: 100%;
+    border-radius: 4px;
+
+}
+.logop2s5{
+    text-align: center;
+    padding: 10px 35px 0px 30px;
+}
+
+.titulop2s5{
+    text-align: center;
+    padding: 0px 35px 15px 30px;
+    color:#F41486;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.primersectionp2s5{
+    background-color: #F5F5F5;
+    padding: 14px 0px 14px 0px;
+    display: flex;
+    justify-content: center
+}
+.signopeso{
+    font-size: 40px;
+}
+.preciop2s5{
+    font-size: 40px;
+}
+
+.list2s5{
+    list-style-type: none;
+    font-size: 18px;
+    padding: 20px 35px 0px 30px;
+}
+
+
+.iconop2s5{
+    color:black;
+    font-weight: bold;
+}
+
+.iconop2s5x{
+    color: black;
+    font-weight: bold;
+}
+
+.text2s5{
+    text-align: center;
+    padding-left: 40px;
+}
+
+.texlist2{
+    text-align: center;
+    font-size: 18px;
+    padding: 40px 35px 40px 30px;
+}
+
+.buttonp2s5{
+    text-align:center;
+    background-color: #F5F5F5;
+    padding: 10px 0px 10px 0px;
+
+}
+
+                                       /*tarcera tarjeta*/
+
+.part3s5 {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-color: #FFFFFF;
+    width: 100%;
+    border-radius: 4px;
+
+}
+.logop3s5{
+    text-align: center;
+    padding: 10px 35px 0px 30px;
+}
+
+.titulop3s5{
+    text-align: center;
+    padding: 0px 35px 15px 30px;
+    color:#F41486;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.primersectionp3s5{
+    background-color: #F5F5F5;
+    padding: 14px 0px 14px 0px;
+    display: flex;
+    justify-content: center
+}
+.signopeso{
+    font-size: 40px;
+}
+.preciop3s5{
+    font-size: 40px;
+}
+
+.list3s5{
+    list-style-type: none;
+    font-size: 18px;
+    padding: 20px 35px 0px 30px;
+}
+
+
+.iconop3s5{
+    color:black;
+    font-weight: bold;
+}
+
+.iconop3s5x{
+    color: black;
+    font-weight: bold;
+}
+
+.text3s5{
+    text-align: center;
+    padding-left: 40px;
+}
+
+.texlist3{
+    text-align: center;
+    font-size: 18px;
+    padding: 40px 35px 40px 30px;
+}
+
+.buttonp3s5{
+    text-align:center;
+    background-color: #F5F5F5;
+    padding: 10px 0px 10px 0px;
+}
+
+
+                                        /*footer*/
+
+footer{
+    height: 70px;
+    padding: 0px 30px;
+    color: rgb(99, 97, 97);
+    font-size: 10px;
+}
+
+.logof{
+    width: 10px;
+     filter: brightness(0) saturate(0%) opacity(0.);
+}
+
+.logot{
+    width: 15px;
+    filter: grayscale(100%) brightness(50%);
+}
+
+.linkedin{
+    width: 15px;
+    filter: grayscale(100%) brightness(50%);
+}
+
+.ligoins{
+    width: 15px;
+    filter: grayscale(100%) brightness(70%);
+}
+
+.fotters{
+    color: #F41486;
+}
+
+
+}
