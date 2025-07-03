@@ -397,7 +397,7 @@ nav{
                                               /*section 2 */
 .contenDers2{
     height: 100vh;
-    background-size:80vw;
+    background-size:90vw;
     background-position-x: -205px;
 }
                      /*izquerda*/
@@ -579,6 +579,7 @@ footer{
 @media (max-width:920px){                                                            /*920*/
 .contenDers2{
     height: 88vh;
+    background-size: 100vw;
 }
                              /*section Izquierda*/
 .contenIzs2{
@@ -818,12 +819,10 @@ nav{
     font-size: 13px;
     padding: 20px 9px 0px 12px;
 }
-
 .texlist1{
     font-size: 14px;
     padding: 20px 3px;
 }
-
 .buttonp1s5{
     padding: 8px 0px 8px 0px;
 }
@@ -840,7 +839,6 @@ nav{
     font-size: 13px;
     padding: 20px 9px 0px 12px;
 }
-
 .texlist4{
     font-size: 14px;
     padding: 20px 3px;
@@ -878,7 +876,6 @@ footer{
 }
                                                  /*480*/
 @media (max-width:480px){  
-
 .logo{
     width: 80px;
     margin-right: 20px;
@@ -915,7 +912,7 @@ h1{
 }
 
 .contens2Bu{
-    width: 97%;
+    width: 70%;
     margin-top: 20px;
 }
 
